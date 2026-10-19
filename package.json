@@ -1,0 +1,29 @@
+{
+  "name": "agent-chaos-lab",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Inject reproducible faults and measure detection and recovery.",
+  "main": "agent-chaos-lab.js",
+  "exports": {
+    ".": "./agent-chaos-lab.js"
+  },
+  "files": [
+    "agent-chaos-lab.js",
+    "retry-replan-controller.js",
+    "dod-contract.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "agent-chaos-lab"
+  ],
+  "license": "MIT"
+}
